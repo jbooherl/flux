@@ -1,6 +1,6 @@
 module github.com/influxdata/flux
 
-go 1.18
+go 1.21
 
 require (
 	cloud.google.com/go v0.110.0
@@ -52,9 +52,9 @@ require (
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	github.com/vertica/vertica-sql-go v1.1.1
 	go.uber.org/zap v1.16.0
-	golang.org/x/exp v0.0.0-20220827204233-334a2380cb91
+	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a
 	golang.org/x/net v0.23.0
-	golang.org/x/tools v0.6.0
+	golang.org/x/tools v0.17.0
 	gonum.org/v1/gonum v0.11.0
 	google.golang.org/api v0.114.0
 	google.golang.org/grpc v1.56.3
@@ -131,9 +131,9 @@ require (
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	golang.org/x/crypto v0.21.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/oauth2 v0.7.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
+	golang.org/x/sync v0.6.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
